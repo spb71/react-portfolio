@@ -37,7 +37,7 @@ const Projects = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="./assets/images/weather.PNG" alt="weather dashboard" />
+            <img src="../assets/images/weather.PNG" alt="weather dashboard" />
           </a>
         </div>
         <div className="carousel-item">
@@ -47,7 +47,7 @@ const Projects = () => {
             rel="noreferrer"
           >
             <img
-              src="./assets/images/password-image.PNG"
+              src="../assets/images/password-image.PNG"
               alt="password authenticator"
             />
           </a>
@@ -58,7 +58,7 @@ const Projects = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="./assets/images/planner.PNG" alt="daily planner" />
+            <img src="../assets/images/planner.PNG" alt="daily planner" />
           </a>
         </div>
       </div>
