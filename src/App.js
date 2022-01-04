@@ -1,14 +1,18 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 // import About from "./components/About";
 // import Projects from "./components/Projects";
 // import Contact from "./components/Contact";
 import "bootstrap/dist/css/bootstrap.min.css";
+import About from "./components/About";
+import Projects from "./components/Projects";
 
 function App() {
   return (
     <main>
-      <Navbar />
+      <Header />
+      <About />
+      <Projects />
     </main>
   );
 }
