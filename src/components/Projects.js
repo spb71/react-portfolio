@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <Container id="projects">
       <h1>Projects</h1>
-      <Card style={{ width: "25rem", display: "inline" }}>
+      <Card bg="light" style={{ width: "25rem", display: "inline" }}>
         <Card.Img variant="top" fluid="true" src={img} />
         <Card.Body>
           <Card.Title>Weather Dashboard</Card.Title>
@@ -27,7 +27,7 @@ const Projects = () => {
         </Card.Body>
       </Card>
       <br />
-      <Card style={{ width: "25rem", display: "inline" }}>
+      <Card bg="light" style={{ width: "25rem", display: "inline" }}>
         <Card.Img variant="top" fluid="true" src={img2} />
         <Card.Body>
           <Card.Title>Password Authenticator</Card.Title>
@@ -46,7 +46,7 @@ const Projects = () => {
         </Card.Body>
       </Card>
       <br />
-      <Card style={{ width: "25rem", display: "inline" }}>
+      <Card bg="light" style={{ width: "25rem", display: "inline" }}>
         <Card.Img variant="top" fluid="true" src={img3} />
         <Card.Body>
           <Card.Title>Daily Planner</Card.Title>

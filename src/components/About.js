@@ -1,8 +1,9 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const About = () => {
   return (
-    <div id="about" className="aboutMe">
+    <Container id="about" className="aboutMe">
       <h1>About Me</h1>
       <p>
         Hello, my name is Shem Baijoo. I am aspiring to be a full-time software
@@ -18,7 +19,7 @@ const About = () => {
         below, which outline a few of the languages I've worked with in the
         past.
       </p>
-    </div>
+    </Container>
   );
 };
 
