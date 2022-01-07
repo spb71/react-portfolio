@@ -1,1 +1,5 @@
-export default function Contact() {}
+import React from "react";
+
+const Contact = () => {};
+
+export default Contact;
