@@ -1,11 +1,11 @@
 import React from "react";
 import { Card, Container } from "react-bootstrap";
-import img from "../assets/images/weather.PNG";
-import img2 from "../assets/images/password-image.PNG";
-import img3 from "../assets/images/planner.PNG";
-import img4 from "../assets/images/note-taker.PNG";
-import img5 from "../assets/images/fitness-tracker.PNG";
-import img6 from "../assets/images/budget-tracker.PNG";
+import img from "../../assets/images/weather.PNG";
+import img2 from "../../assets/images/password-image.PNG";
+import img3 from "../../assets/images/planner.PNG";
+import img4 from "../../assets/images/note-taker.PNG";
+import img5 from "../../assets/images/fitness-tracker.PNG";
+import img6 from "../../assets/images/budget-tracker.PNG";
 
 const Projects = () => {
   return (
