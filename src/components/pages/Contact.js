@@ -5,7 +5,7 @@ import { send } from "@emailjs/browser";
 import config from "../../utils/config";
 
 const Contact = () => {
-  const [formState, setFormState] = useState({
+  const [formstate, setformstate] = useState({
     name: "",
     email: "",
     message: "",
@@ -14,6 +14,7 @@ const Contact = () => {
   const [response, setResponse] = useState(null);
 
   const handleChange = (e) => {
+    console.log(e);
     if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
       console.log(isValid);
@@ -31,16 +32,16 @@ const Contact = () => {
     }
 
     if (!errorMessage) {
-      setFormState({ ...formState, [e.target.name]: e.target.value });
+      setformstate({ ...formstate, [e.target.name]: e.target.value });
     }
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const from_name = formState.name;
-    const message = formState.message;
-    const reply_to = formState.email;
+    const from_name = formstate.name;
+    const message = formstate.message;
+    const reply_to = formstate.email;
 
     const toSend = { from_name, message, reply_to };
 
@@ -73,6 +74,8 @@ const Contact = () => {
   };
   return (
     <Container id="contact">
+      <h1>Contact Me</h1>
+      <br />
       <Form onSubmit={handleSubmit}>
         <Row className="mb-3">
           <Form.Group as={Col} md="4">

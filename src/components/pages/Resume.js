@@ -31,7 +31,7 @@ const Resume = () => {
 
   return (
     <Container id="resume">
-      <h2 className="title">Resume</h2>
+      <h1 className="title">Resume</h1>
       <div className="box">
         <div id="resume-link-div" className="row">
           <a
@@ -42,6 +42,7 @@ const Resume = () => {
             Download Resume here
           </a>
         </div>
+        <br />
         <h3>Proficiencies</h3>
         <div id="skills-div" className="row">
           <ListGroup>
