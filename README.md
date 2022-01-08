@@ -6,4 +6,4 @@ This project is a portfolio that details my personal story, the projects I have 
 
 ## Screenshot
 
-![portfolio contact page](portfolio.PNG)
+![portfolio contact page](public/portfolio.PNG)
