@@ -1,11 +1,14 @@
 import React from "react";
-import { Container, Image } from "react-bootstrap";
+import { Container, Card } from "react-bootstrap";
+import img from "../../assets/images/my-pic.png";
 
 const About = () => {
   return (
     <Container id="about" className="aboutMe">
       <h1>About Me</h1>
-      <Image src="../../assets/images/my-pic.png" alt="This is Shem" />
+      <Card style={{ width: "18rem" }}>
+        <Card.Img variant="top" src={img} />
+      </Card>
       <p>
         Hello, my name is Shem Baijoo. I am aspiring to be a full-time software
         developer. I pride myself in designing the UI of various webpages. I
