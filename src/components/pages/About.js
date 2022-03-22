@@ -21,7 +21,8 @@ const About = () => {
         frontend, HTML, CSS, Javascript. With respect to the backend, I've
         learned Express.js, Node.js, React.js. Please take a look at my
         Projects, which outline a few of the languages I've worked with in the
-        past.
+        past. My resume is free to download if you would like to see a full list
+        of my development experience. Hope you enjoy the user experience!
       </p>
     </Container>
   );
