@@ -36,7 +36,7 @@ const Resume = () => {
         <div id="resume-link-div" className="row">
           <a
             id="resume-link"
-            href="../../assets/docs/Shem-Baijoo-Resume.docx"
+            href="../../assets/docs/Shem-Baijoo-Resume.pdf"
             download
           >
             Download Resume here
