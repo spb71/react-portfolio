@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, ListGroup, ListGroupItem } from "react-bootstrap";
+import profile from "../../assets/docs/Shem-Baijoo-Resume.pdf";
 
 const Resume = () => {
   const skills = [
@@ -34,11 +35,7 @@ const Resume = () => {
       <h1 className="title">Resume</h1>
       <div className="box">
         <div id="resume-link-div" className="row">
-          <a
-            id="resume-link"
-            href="../../assets/docs/Shem-Baijoo-Resume.pdf"
-            download
-          >
+          <a id="resume-link" href={profile} download>
             Download Resume here
           </a>
         </div>
