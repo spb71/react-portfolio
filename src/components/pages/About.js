@@ -19,8 +19,8 @@ const About = () => {
       <p>
         The few languages I've learned until now include, with respect to
         frontend, HTML, CSS, Javascript. With respect to the backend, I've
-        learned Express.js, Node.js, React.js. Please take a look at my websites
-        below, which outline a few of the languages I've worked with in the
+        learned Express.js, Node.js, React.js. Please take a look at my
+        Projects, which outline a few of the languages I've worked with in the
         past.
       </p>
     </Container>
