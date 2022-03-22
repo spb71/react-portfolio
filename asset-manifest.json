@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.3b82de93.css",
-    "main.js": "/react-portfolio/static/js/main.e62502bb.js",
+    "main.js": "/react-portfolio/static/js/main.2df2f353.js",
     "static/media/my-pic.png": "/react-portfolio/static/media/my-pic.b48fd736289fd4a48922.png",
+    "static/media/Shem-Baijoo-Resume.pdf": "/react-portfolio/static/media/Shem-Baijoo-Resume.5685e344953689222ed5.pdf",
     "static/media/weather.PNG": "/react-portfolio/static/media/weather.1c6cf10a72261edf1a9c.PNG",
     "static/media/budget-tracker.PNG": "/react-portfolio/static/media/budget-tracker.d54774343ea8ce49b708.PNG",
     "static/media/planner.PNG": "/react-portfolio/static/media/planner.edb06b9f8daaf46df142.PNG",
@@ -11,10 +12,10 @@
     "static/media/note-taker.PNG": "/react-portfolio/static/media/note-taker.aee5d65800787d79a976.PNG",
     "index.html": "/react-portfolio/index.html",
     "main.3b82de93.css.map": "/react-portfolio/static/css/main.3b82de93.css.map",
-    "main.e62502bb.js.map": "/react-portfolio/static/js/main.e62502bb.js.map"
+    "main.2df2f353.js.map": "/react-portfolio/static/js/main.2df2f353.js.map"
   },
   "entrypoints": [
     "static/css/main.3b82de93.css",
-    "static/js/main.e62502bb.js"
+    "static/js/main.2df2f353.js"
   ]
 }
