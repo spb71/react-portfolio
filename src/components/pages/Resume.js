@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, ListGroup, ListGroupItem } from "react-bootstrap";
-import profile from "../../assets/docs/Shem-Baijoo-Resume.pdf";
+import profile from "../../assets/docs/Shem_Baijoo_Resume.pdf";
 
 const Resume = () => {
   const skills = [
